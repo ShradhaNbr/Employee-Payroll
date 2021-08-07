@@ -61,7 +61,7 @@ public class WatchServices {
                     } catch (IOException x) {
                     }
                 }else if (kind.equals(ENTRY_DELETE)) {
-                        if (Files.isDirectory(child))
+                         if (Files.isDirectory(child))
                             dirWatchers.remove(key);
                     }
                 }

@@ -10,7 +10,7 @@ public class EmployeePayroll {
         this.salary = salary;
     }
 
-
+@Override
     public String toString() {
         return "id = " + id + ", name = " + name + ",salary =" + salary;
     }
